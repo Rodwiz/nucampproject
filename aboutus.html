@@ -22,6 +22,7 @@
 
 <body>
 
+    <!--Jumbotron Header-->
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="col-4 col-sm-3 col-md-2 align-self-center">
@@ -37,6 +38,7 @@
         </div>
     </header>
 
+     <!--Navbar with a toggler-->
      <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
@@ -54,6 +56,7 @@
         </div>
     </nav>
 
+    <!--Breadcrumbs-->
     <div class="container">
         <div class="row">
             <div class="col">
@@ -67,7 +70,8 @@
         </div>
     </div>
 
-<div class="row row-content">
+<!--First row-->
+    <div class="row row-content">
             <div class="col-sm-6">
                 <h3>Our Mission</h3>
                 <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure that they are up to our standards. We also present a platform for campers to share reviews on campsites they have visited with  each other.</p>
@@ -89,6 +93,8 @@
                     </div>
                 </div>
             </div>
+
+            <!--Second row and blockquote card-->
             <div class="col">
                 <div class="card bg-light mt-3">
                     <blockquote class="blockquote card-body">
@@ -103,21 +109,39 @@
             </div>   
         </div>  
 
+        <!--Community Partners-->
         <div class="row row-content">
             <div class="col">
                 <h3>Community Partners</h3>
-                <h4>Bootstrap <small>Outdoor Gear Specialists</small></h4>
-                <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-                <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
-                <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
-                <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
-                <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
-                <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
-                <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+                <ul class="nav nav-tabs">
+                    <li class="nav-items"><a class="nav-link active" href="#bootstrap" role="tab" data-toggle="tab">Bootstrap Outfitters</a></li>
+                    <li class="nav-items"><a class="nav-link" href="#git" role="tab" data-toggle="tab">Git Out Expeditions</a></li>
+                    <li class="nav-items"><a class="nav-link" href="#mongo" role="tab" data-toggle="tab">Mongo Fly Shop</a></li>
+                    <li class="nav-items"><a class="nav-link" href="#node" role="tab" data-toggle="tab">Node Outdoor Apparel</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade show active" id="bootstrap">
+                        <h4>Bootstrap <small>Outdoor Gear Specialists</small></h4>
+                        <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="git">
+                        <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
+                        <p class="d-none d-sm-block">Join Git Out Expeditions to explore new horizons with a group of other adventurers!</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="mongo">
+                        <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
+                        <p class="d-none d-sm-block">Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo Fly Shop.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="node">
+                        <h4>Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small></h4>
+                        <p class="d-none d-sm-block">From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
+    <!--Facts and figures-->
     <div class="row row-content">
             <div class="col-sm-9">
             	<h2>Facts &amp; Figures</h2>
@@ -156,6 +180,7 @@
             </div>
        </div> 
 
+       <!--Footer-->
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -168,6 +193,8 @@
                         <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
+
+                <!--Social buttons-->
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
