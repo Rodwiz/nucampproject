@@ -12,16 +12,12 @@
                 $("#carouselButton").children("i").addClass("fa-pause");
             }
         });
-    });
 
-// Task 2
-$(document).ready(function () {
+        $("#reserveButton").click(function () {
+            $("#reserveModal").modal("show");
+        });
 
-    $("#reserveButton").click(function () {
-        $("#reserveModal").modal("show");
+        $("#loginButton").click(function () {
+            $("#loginModal").modal("show");
+        });
     });
-
-    $("#loginButton").click(function () {
-        $("#loginModal").modal("show");
-    });
-});
